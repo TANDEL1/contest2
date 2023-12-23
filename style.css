@@ -185,8 +185,7 @@ body {
     flex-wrap: wrap;
 }
 
-#r1
-{
+#r1 {
     /* border: 2px solid blue; */
     width: 100%;
     height: 30%;
@@ -197,73 +196,76 @@ body {
     flex-wrap: wrap;
 }
 
-#m1, #m2, #m3, #m4, #m5, #m6 {
-    width:45%;
+#m1,
+#m2,
+#m3,
+#m4,
+#m5,
+#m6 {
+    width: 45%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
 }
 
-#menulorem
-{
+#menulorem {
     width: 47%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.m1
-{
+.m1 {
     background: url(l1.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.m2
-{
+
+.m2 {
     background: url(r1.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.m3
-{
+
+.m3 {
     background: url(l2.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.m4
-{
+
+.m4 {
     background: url(r2.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.m5
-{
+
+.m5 {
     background: url(l3.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.m6
-{
+
+.m6 {
     background: url(r3.png) no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
-#menulorem p{
+#menulorem p {
     font-size: 1.1em;
     margin-left: 0;
 }
 
-#menulorem h2{
+#menulorem h2 {
     color: #f2c94c;
     font-size: 1.5em;
     font-style: normal;
@@ -272,8 +274,7 @@ body {
 
 /* -------------------(carousel)------------------- */
 
-#carousel
-{
+#carousel {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,8 +286,7 @@ body {
     margin-top: 2em;
 }
 
-#cimage
-{
+#cimage {
     width: 95%;
     height: 100%;
     display: flex;
@@ -294,8 +294,7 @@ body {
     align-items: center;
 }
 
-.cont
-{
+.cont {
     margin-top: 3em;
     width: 100%;
     height: 30em;
@@ -303,8 +302,8 @@ body {
     background-position: center;
     background-size: cover;
 }
-.left
-{
+
+.left {
     margin-top: 3em;
     width: 10%;
     height: 30em;
@@ -312,8 +311,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.right
-{
+
+.right {
     margin-top: 3em;
     width: 10%;
     height: 30em;
@@ -324,24 +323,20 @@ body {
 
 /* --------(gallery)---------- */
 
-#gallery
-{
-    width: 95%;
-    height: 100%;
+#gallery {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
-#gallery h1
-{
+#gallery h1 {
     font-size: 2.5em;
     margin-top: 2em;
+
 }
 
-.gall
-{
+.gall {
     width: 75%;
     height: 100%;
     display: flex;
@@ -350,8 +345,7 @@ body {
     margin-top: 4em;
 }
 
-.mainimage1
-{
+.mainimage1 {
     width: 80%;
     height: 25em;
     /* display: flex;
@@ -361,8 +355,8 @@ body {
     background-position: center;
     background-size: cover;
 }
-.mainimage2
-{
+
+.mainimage2 {
     width: 80%;
     height: 25em;
     display: flex;
@@ -371,8 +365,7 @@ body {
     justify-content: space-evenly;
 }
 
-.col1
-{
+.col1 {
     height: 100%;
     width: 48%;
     display: flex;
@@ -382,8 +375,8 @@ body {
     justify-content: space-between;
 
 }
-.col2
-{
+
+.col2 {
     height: 100%;
     width: 48%;
     display: flex;
@@ -393,8 +386,7 @@ body {
     justify-content: space-between;
 }
 
-.img1
-{
+.img1 {
     height: 31%;
     width: 100%;
     background: url(r1.png) no-repeat;
@@ -402,8 +394,7 @@ body {
     background-size: cover;
 }
 
-.img2
-{
+.img2 {
     height: 31%;
     width: 100%;
     background: url(l3.png) no-repeat;
@@ -411,8 +402,7 @@ body {
     background-size: cover;
 }
 
-.img3
-{
+.img3 {
     height: 31%;
     width: 100%;
     background: url(l2.png) no-repeat;
@@ -420,8 +410,7 @@ body {
     background-size: cover;
 }
 
-.img4
-{
+.img4 {
     height: 48%;
     width: 100%;
     background: url(r2.png) no-repeat;
@@ -429,8 +418,7 @@ body {
     background-size: cover;
 }
 
-.img5
-{
+.img5 {
     height: 48%;
     width: 100%;
     background: url(r3.png) no-repeat;
@@ -440,48 +428,91 @@ body {
 
 /* ------------(find us)------------- */
 
+#foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-#home1 {
+#foot h1 {
+    font-size: 2.5em;
+    margin-top: 2em;
+}
+
+.contact {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.contacticon {
+    width: 44%;
+    height: 25em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#home1 h1 {
-    margin-top: 1.8em;
-    font-size: 2.5em;
-}
-
-#line2 {
-    background: #f24c4c;
-    box-shadow: 3px 6px 18px 10px rgba(0, 0, 0, 0.25);
-    width: 25%;
-    height: 0.5em;
-    margin-top: 1em;
-}
-
-.home1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
     justify-content: space-evenly;
-    margin: 2em;
+    margin-left: 2em;
 }
 
-.home1 p {
-    width: 36%;
-    height: 14em;
+.map {
+    width: 44%;
+    height: 25em;
+    background: url(map.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contacticon p {
     font-size: 1.5em;
 }
 
-.home1 img {
-    width: 40%;
+.contacticon i {
+    font-size: 2em;
 }
 
-.foot i
-{
-    
+
+
+/* -------------(footer)--------------- */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.last {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.iconn {
+    width: 202.795px;
+    height: 148.962px;
+    background: url(group.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.iconn1 {
+    width: 45%;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.iconn1 i {
+    font-size: 2em;
 }
